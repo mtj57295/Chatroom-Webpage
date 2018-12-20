@@ -1,0 +1,86 @@
+html,body {
+  height: 100%;
+}
+.middleContainer {
+  background-color: #76C7FE;
+  font-size:30pt;
+  margin-right: 15%;
+  margin-left: 15%;
+  height: 110%;
+}
+
+.chatRoomHeader {
+  height:60px;
+  background-color: #0470B8 ;
+  color: white;
+}
+
+.activeUserTag {
+  padding-left: 6%;
+  font-size: 15pt;
+  color:black;
+  vertical-align: bottom;
+  float:left;
+}
+
+.titleTag {
+  color:white;
+  font-size: 35pt;
+  text-align: center;
+}
+
+.sideTabs {
+  float:left;
+  height: 100%;
+}
+
+.userListHeader {
+  background-color: white;
+}
+
+.userListClass {
+  width: 250px;
+  font-size: 15pt;
+  margin-top: 1%;
+  margin-left:0%;
+  overflow-y: scroll;
+  height: 91.5%;
+}
+
+.rightTabs {
+  color: #000000;
+}
+
+.chatRoomObject{
+  height: 600px;
+  background-color: white;
+	font-weight: bold;
+  width: 800px;
+  overflow-y: scroll;
+  font-size: 15pt;
+  text-indent: 5%;
+}
+
+
+.inputMessagesText{
+  font-size: 15pt;
+  margin-top: 1%;
+  margin-bottom:1%;
+  width:600px;
+  height:80px;
+  background-color: #F1F1F2;
+}
+
+.submitButton {
+  background-color: #555;
+  border: none;
+  color: white;
+  padding: 16px 42px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
